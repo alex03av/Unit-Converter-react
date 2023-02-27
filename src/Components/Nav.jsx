@@ -7,7 +7,7 @@ function Navbar() {
       <ul>
         <li>
           <NavLink
-            to="/Long"
+            to="Unit-Converter-react/Long"
             className={({ isActive }) => (isActive ? "active" : "")}
           >
             longitud
@@ -15,7 +15,7 @@ function Navbar() {
         </li>
         <li>
           <NavLink
-            to="/Temp"
+            to="Unit-Converter-react/Temp"
             className={({ isActive }) => (isActive ? "active" : "")}
           >
             Temperatura
@@ -23,7 +23,7 @@ function Navbar() {
         </li>
         <li>
           <NavLink
-            to="/Area"
+            to="Unit-Converter-react/Area"
             className={({ isActive }) => (isActive ? 'active' : 'inactive')}
           >
             Area
@@ -32,7 +32,7 @@ function Navbar() {
 
         <li>
           <NavLink
-            to="/peso"
+            to="Unit-Converter-react/peso"
             className={({ isActive }) => (isActive ? "active" : "")}
           >
             {" "}
@@ -41,7 +41,7 @@ function Navbar() {
         </li>
         <li>
           <NavLink
-            to="/Tiempo"
+            to="Unit-Converter-react/Tiempo"
             className={({ isActive }) => (isActive ? "active" : "")}
           >
             Tiempo

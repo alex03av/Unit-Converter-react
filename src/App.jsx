@@ -23,7 +23,7 @@ const Menu = () => {
   return (
     <header className="titleApp">
       <h1>
-        <NavLink to="/">Unit Converter</NavLink>
+        <NavLink to="Unit-Converter-react/">Unit Converter</NavLink>
       </h1>
     </header>
   );
@@ -40,11 +40,11 @@ function App() {
 
         <Routes>
           <Route path="Unit-Converter-react/" element={<Inicio />}></Route>
-          <Route path="/Long" element={<Long />}></Route>
-          <Route path="/Temp" element={<Temp />}></Route>
-          <Route path="/Area" element={<Area />}></Route>
-          <Route path="/Peso" element={<Peso />}></Route>
-          <Route path="/Tiempo" element={<Tiempo />}></Route>
+          <Route path="Unit-Converter-react/Long" element={<Long />}></Route>
+          <Route path="Unit-Converter-react/Temp" element={<Temp />}></Route>
+          <Route path="Unit-Converter-react/Area" element={<Area />}></Route>
+          <Route path="Unit-Converter-react/Peso" element={<Peso />}></Route>
+          <Route path="Unit-Converter-react/Tiempo" element={<Tiempo />}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>
