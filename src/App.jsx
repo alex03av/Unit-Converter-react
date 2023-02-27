@@ -39,7 +39,7 @@ function App() {
         </div>
 
         <Routes>
-          <Route path="/" element={<Inicio />}></Route>
+          <Route path="Unit-Converter-react/" element={<Inicio />}></Route>
           <Route path="/Long" element={<Long />}></Route>
           <Route path="/Temp" element={<Temp />}></Route>
           <Route path="/Area" element={<Area />}></Route>
