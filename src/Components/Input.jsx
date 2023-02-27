@@ -10,18 +10,23 @@ function Input({ datos, num, from, to, reult }) {
             type="text"
             placeholder="Entrada"
             onChange={(x) => num(x.target.value)}
-          />
+          />{" "}
+          <input className="btn" type="button" value="Convert" />
           <select
             onClick={(x) => {
               from(x.target.value);
-              console.log(x.target.text)
+              console.log(x.target.text);
             }}
             name="option"
             id="input__option"
             size={datos.length}
           >
             {datos.map((datos) => {
-              return <option key={datos.id} value={datos.opc}>{datos.opc}</option>;
+              return (
+                <option key={datos.id} value={datos.opc}>
+                  {datos.opc}
+                </option>
+              );
             })}
           </select>
         </div>
@@ -39,12 +44,15 @@ function Input({ datos, num, from, to, reult }) {
             id="input__option"
             onClick={(x) => {
               to(x.target.value);
-          
             }}
             size={datos.length}
           >
             {datos.map((datos) => {
-              return <option key={datos.id} value={datos.opc}>{datos.opc}</option>;
+              return (
+                <option key={datos.id} value={datos.opc}>
+                  {datos.opc}
+                </option>
+              );
             })}
           </select>
         </div>

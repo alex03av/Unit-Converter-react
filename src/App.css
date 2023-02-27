@@ -9,6 +9,9 @@ body {
   background-size: cover;
   min-height: 100vh;
 }
+.btn{
+  display: none;
+}
 .inicio {
   color: #ffffff;
   display: grid;
@@ -192,5 +195,22 @@ text-align: center;
   }
   h1{
     font-size: 25px;
+  }
+  .btn{
+    display: block;
+    border: none;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #00000067;
+    color: #ffffff;
+  }
+  .btn:hover{
+    background-color: #0000009a;
+    color: #dbdbdb;
+
+  }
+  .btn:active{
+    background-color: #ffffff6b;
+    color:#000000 ;
   }
 }
